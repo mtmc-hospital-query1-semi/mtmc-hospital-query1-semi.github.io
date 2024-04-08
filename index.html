@@ -6,7 +6,7 @@
         content="Deformable Neural Radiance Fields creates free-viewpoint portraits (nerfies) from casually captured videos.">
   <meta name="keywords" content="Nerfies, D-NeRF, NeRF">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Video-3DGS: Leveraging 3D Gaussian Splatting for Reconstructing and Editing Dynamic Monocular Videos</title>
+  <title>MTMC Hospital Test</title>
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
@@ -48,135 +48,36 @@
     <div class="container is-max-desktop">
       <div class="columns is-centered">
         <div class="column has-text-centered">
-          <h1 class="title is-1 publication-title">Video-3DGS: Leveraging 3D Gaussian Splatting for Reconstructing and Editing Dynamic Monocular Videos</h1>
-          <div class="is-size-5 publication-authors">
-            <span class="author-block">
-              <a href="https://dlsrbgg33.github.io/">Inkyu Shin</a><sup>1</sup>,</span>
-            <span class="author-block">
-              <a href="https://yucornetto.github.io/">Qihang Yu</a><sup>2</sup>,</span>
-            <span class="author-block">
-              <a href="https://xiaohuishen.github.io/">Xiaohui Shen</a><sup>2</sup>,
-            </span>
-            <span class="author-block">
-              <a href="http://rcv.kaist.ac.kr/index.php?mid=rcv_faculty&document_srl=5579">In So Kweon</a><sup>1</sup>,
-            </span>
-            <span class="author-block">
-              <a href="https://sites.google.com/site/kjyoon/">Kuk-Jin Yoon</a><sup>1</sup>,
-            </span>
-            <span class="author-block">
-              <a href="http://liangchiehchen.com/">Liang-Chieh Chen</a><sup>2</sup>,
-            </span>
-          </div>
+          <h1 class="title is-1 publication-title">MTMC Hospital Test</h1>
 
-          <div class="is-size-5 publication-authors">
-            <span class="author-block"><sup>1</sup>KAIST,</span>
-            <span class="author-block"><sup>2</sup>ByteDance</span>
-          </div>
-
-          <div class="column has-text-centered">
-            <div class="publication-links">
-              <span class="link-block">
-                <a href="https://github.com/dlsrbgg33/Video-3DGS"
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                      <i class="ai ai-arxiv"></i>
-                  </span>
-                  <span>arXiv</span>
-                </a>
-              </span>
-              <!-- Code Link. -->
-              <span class="link-block">
-                <a href="https://github.com/dlsrbgg33/Video-3DGS"
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                      <i class="fab fa-github"></i>
-                  </span>
-                  <span>Code</span>
-                  </a>
-              </span>
-            </div>
-          </div>
         </div>
       </div>
     </div>
   </div>
 </section>
 
-<section class="hero teaser">
-  <div class="container is-max-desktop">
-    <div class="hero-body">
-      <video id="teaser" autoplay muted loop playsinline height="100%">
-        <source src="./static/videos/teaser_video3dgs_v3.mp4"
-                type="video/mp4">
-      </video>
-      <h2 class="subtitle has-text-centered">
-        <span class="dnerf">Video-3DGS </span> leverages 3D Gaussians for reconstructing and editing dynamic monocular videos.
-      </h2>
-    </div>
-  </div>
-</section>
-
-
+<!-- 
 <section class="section">
   <div class="container is-max-desktop">
-    <!-- Abstract. -->
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Abstract</h2>
-        <div class="content has-text-justified">
-          <p>
-            We introduce Video-3DGS, an innovative approach tailored for dynamic monocular videos.
-          </p>
-          <p>
-            Video-3DGS is empowered by the proposed MC-COLMAP, a modified version of
-            COLMAP, applied to videos in a Masked and Clipped manner. We employ an open-vocabulary video segmenter to extract segmentation masks
-            for foreground moving objects and divide long
-            video sequences into shorter clips to minimize
-            motion within each clip. This enables COLMAP
-            to focus on foreground objects within each clip,
-            effectively generating 3D points for them. Meanwhile, the cluttered background is modeled with
-            spherical-shaped random 3D points, surrounding
-            the pre-extracted 3D points of foreground moving objects. For each video clip, Video-3DGS
-            utilizes two sets of 3D Gaussians (Frg-3DGS and
-            Bkg-3DGS) to represent foreground and background 3D points, respectively. Afterwards, a 2D
-            learnable parameter map is adopted to merge the
-            foreground and background views rendered from
-            each set of Gaussians. The resulting merged views
-            faithfully represent the video frames.
-          </p>
-          <p>
-            To demonstrate the efficacy of Video-3DGS, we conduct
-            extensive experiments across two related tasks:
-            Video Reconstruction and Video Editing. Video-3DGS significantly improves video reconstruction
-            quality (+7 PSNR increase) and training efficiency
-            (×4 times faster) over the state-of-art method
-            Deformable-3DGS on DAVIS dataset. Moreover,
-            it enhances video editing by ensuring temporal
-            consistency across 58 dynamic monocular videos.
-          </p>
-        </div>
-      </div>
-    </div>
-    <!--/ Abstract. -->
 
     <!-- Paper video. -->
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
         <h2 class="title is-3">Overview of Video-3DGS</h2>
         <div class="publication-video">
-<!--           <iframe src="https://www.youtube.com/embed/MrKrnHhk8IA?rel=0&amp;showinfo=0" -->
-<!--                   frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> -->
-          <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
+          <iframe src="https://www.youtube.com/embed/MrKrnHhk8IA?rel=0&amp;showinfo=0"
+                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<!--           <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
             <source src="./static/videos/video_test.mp4"
                     type="video/mp4">
-          </video>
+          </video> -->
         </div>
       </div>
     </div>
     <!--/ Paper video. -->
   </div>
 </section>
-
+ -->
 
 <section class="section">
   <div class="container is-max-desktop">
@@ -190,38 +91,15 @@
           <p>
             Video-3DGS for reconstructing videos
           </p>
-          <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/horsejump.mp4"
-                    type="video/mp4">
-          </video>
-          <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/scooter_gray.mp4"
-                    type="video/mp4">
-          </video>
-          <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/motor.mp4"
-                    type="video/mp4">
-          </video>
-          <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/dog.mp4"
-                    type="video/mp4">
-          </video>
-          <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/drift.mp4"
-                    type="video/mp4">
-          </video>
-          <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/bear.mp4"
-                    type="video/mp4">
-          </video>
-<!--           <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/vid_placehoder.mp4"
-                    type="video/mp4">
-          </video>
-          <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/vid_placehoder.mp4"
-                    type="video/mp4">
-          </video> -->
+          <iframe src="https://www.youtube.com/embed/MrKrnHhk8IA?rel=0&amp;showinfo=0"
+                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          
+          <iframe src="https://www.youtube.com/embed/MrKrnHhk8IA?rel=0&amp;showinfo=0"
+                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          
+          <iframe src="https://www.youtube.com/embed/MrKrnHhk8IA?rel=0&amp;showinfo=0"
+                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  
         </div>
       </div>
       <!--/ Visual Effects. -->
@@ -234,38 +112,14 @@
             <p>
               Video-3DGS for editing videos
             </p>
-            <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
-              <source src="./static/videos/edit_trucks_text2vid.mp4"
-                      type="video/mp4">
-            </video>
-            <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
-              <source src="./static/videos/edit_squ_rave.mp4"
-                      type="video/mp4">
-            </video>
-            <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
-              <source src="./static/videos/edit_drift_text2vid.mp4"
-                      type="video/mp4">
-            </video>
-            <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
-              <source src="./static/videos/edit_juggle_text2vid.mp4"
-                      type="video/mp4">
-            </video>
-            <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
-              <source src="./static/videos/edit_ship_rave.mp4"
-                      type="video/mp4">
-            </video>
-            <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
-              <source src="./static/videos/edit_duck_token.mp4"
-                      type="video/mp4">
-            </video>
-<!--             <video id="matting-video" controls playsinline height="100%">
-              <source src="./static/videos/vid_placehoder.mp4"
-                      type="video/mp4">
-            </video>
-            <video id="matting-video" controls playsinline height="100%">
-              <source src="./static/videos/vid_placehoder.mp4"
-                      type="video/mp4">
-            </video> -->
+            <iframe src="https://www.youtube.com/embed/MrKrnHhk8IA?rel=0&amp;showinfo=0"
+                    frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            
+            <iframe src="https://www.youtube.com/embed/MrKrnHhk8IA?rel=0&amp;showinfo=0"
+                    frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            
+            <iframe src="https://www.youtube.com/embed/MrKrnHhk8IA?rel=0&amp;showinfo=0"
+                    frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
           </div>
 
@@ -275,107 +129,6 @@
     <!--/ Matting. -->
 
 
-<section class="section">
-  <div class="container is-max-desktop">
-
-    <!-- Paper video. -->
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Qualitative Analysis (Click for detail)</h2>
-        <div class="publication-video">
-            <span class="link-block">
-              <a href="https://anonymous-video-3dgs-2d-learnable-mask.github.io/"
-                 class="external-link button is-normal is-dark">
-                <span>Visualization on 2D Learnable Masks</span>
-                </a>
-            </span>
-            <span class="link-block">
-              <a href="https://anonymous-video-3dgs-spatial.github.io/"
-                 class="external-link button is-normal is-dark">
-                <span>Visualization on Spatial Decomposition</span>
-                </a>
-            </span>
-            <span class="link-block">
-              <a href="https://anonymous-video-3dgs-recon-edit.github.io/"
-                 class="external-link button is-normal is-dark">
-                <span>Relationship between Reconstruction and Editing</span>
-                </a>
-            </span>
-            <span class="link-block">
-              <a href="https://anonymous-video-3dgs-hypernerf.github.io/"
-                 class="external-link button is-normal is-dark">
-                <span>Results on HyperNeRF dataset</span>
-                </a>
-            </span>
-        </div>
-      </div>
-    </div>
-    <!--/ Paper video. -->
-  </div>
-</section>
-
-<section class="section">
-  <div class="container is-max-desktop">
-
-    <!-- Paper video. -->
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Video Editing with random camera movement</h2>
-        <div class="publication-video">
-<!--           <iframe src="https://www.youtube.com/embed/MrKrnHhk8IA?rel=0&amp;showinfo=0" -->
-<!--                   frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> -->
-          <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/video-3dgs_solution_camera_move.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-      </div>
-    </div>
-    <!--/ Paper video. -->
-  </div>
-</section>
-
-<section class="section" id="BibTeX">
-  <div class="container is-max-desktop content">
-    <h2 class="title">BibTeX</h2>
-    <pre><code>@article{shin2024video3dgs,
-  author    = {Inkyu Shin, Qihang Yu, Xiaohui Shen, In So Kweon, Kuk-Jin Yoon, Liang-Chieh Chen},
-  title     = {Video-3DGS: Leveraging 3D Gaussian Splatting for Reconstructing and Editing Dynamic Monocular Videos},
-<!--   journal   = {ICCV}, -->
-  year      = {2024},
-}</code></pre>
-  </div>
-</section>
-
-
-<footer class="footer">
-  <div class="container">
-    <div class="content has-text-centered">
-
-      <a class="icon-link" href="https://github.com/dlsrbgg33/Video-3DGS" class="external-link" disabled>
-        <i class="fab fa-github"></i>
-      </a>
-    </div>
-    <div class="columns is-centered">
-      <div class="column is-8">
-        <div class="content">
-          <p>
-            This website is licensed under a <a rel="license"
-                                                href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
-            Commons Attribution-ShareAlike 4.0 International License</a>.
-          </p>
-          <p>
-            This means you are free to borrow the <a
-              href="https://github.com/nerfies/nerfies.github.io">source code</a> of this website,
-            we just ask that you link back to this page in the footer.
-            Please remember to remove the analytics code included in the header of the website which
-            you do not want on your website.
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-</footer>
 
 </body>
 </html>
